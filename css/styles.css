@@ -6,6 +6,7 @@
   --main-text-color: #757575;
   --accent-color: #2196f3;
   --darkbg-text-color: #ffffff;
+  --button-bg-color: #f5f4fa;
 }
 
 .link {
@@ -115,6 +116,39 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
+/*-------portfolio-page-------- */
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background-color: var(--button-bg-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--darkbg-text-color);
+}
+.portfolio-works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+.portfolio-works {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/*------------footer-styles--------*/
 
 .logo-footer {
   color: var(--logo-studio-footer-color);
